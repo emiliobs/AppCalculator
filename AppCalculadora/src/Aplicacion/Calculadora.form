@@ -63,7 +63,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="58" pref="58" max="-2" attributes="0"/>
@@ -80,19 +80,27 @@
                                   <Component id="btn2" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
                                   <Component id="btn5" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="btnIgual" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
-                                  <Component id="btn9" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
-                                  <Component id="btn3" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
-                                  <Component id="btn6" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="btn9" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
+                                          <Component id="btn3" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
+                                          <Component id="btn6" alignment="1" min="-2" pref="62" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnIgual" min="-2" pref="88" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="btnSuma" alignment="1" max="-2" attributes="0"/>
-                                  <Component id="btnDivision" alignment="1" max="-2" attributes="0"/>
-                                  <Component id="btnResta" alignment="1" max="-2" attributes="0"/>
-                                  <Component id="btnPor" alignment="1" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="btnResta" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnDivision" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnSuma" alignment="0" pref="99" max="32767" attributes="0"/>
+                                  <Component id="btnPor" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -114,22 +122,25 @@
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <Component id="btn9" min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="btn9" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <Component id="btnDivision" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="btn6" min="-2" pref="53" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="btn3" min="-2" pref="53" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="btnIgual" min="-2" pref="51" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
-                                      <Component id="btnDivision" min="-2" pref="51" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="btnPor" min="-2" pref="53" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="btnResta" min="-2" pref="53" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="btnSuma" min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="btnSuma" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <Component id="btnIgual" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
